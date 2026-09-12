@@ -1,0 +1,9 @@
+{
+  "name": "chandrakala-jewellers-admin",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ChandraKala Jewellers Flutter Web Admin Portal on Vercel",
+  "scripts": {
+    "build": "bash build.sh"
+  }
+}
