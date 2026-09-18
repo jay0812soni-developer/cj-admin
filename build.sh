@@ -24,8 +24,10 @@ flutter pub get
 
 # 3. Build web release
 echo "Building Flutter Web release for Admin Control Portal..."
+API_URL="${API_URL:-https://cj-backend-kappa.vercel.app/api}"
+
 flutter build web --release \
-  --dart-define=API_URL=https://cj-backend-kappa.vercel.app/api
+  --dart-define=API_URL="$API_URL"
 
 echo "=============================================="
 echo " Build successful! Output located in build/web"
